@@ -1,0 +1,25 @@
+from __future__ import annotations
+
+STRIPE_SUPPORTED_EVENTS = {
+    "checkout.session.completed",
+    "checkout.session.async_payment_succeeded",
+    "checkout.session.async_payment_failed",
+    "customer.created",
+    "customer.updated",
+    "customer.subscription.created",
+    "customer.subscription.updated",
+    "customer.subscription.deleted",
+    "customer.subscription.trial_will_end",
+    "invoice.created",
+    "invoice.updated",
+    "invoice.finalized",
+    "invoice.paid",
+    "invoice.payment_succeeded",
+    "invoice.payment_failed",
+    "invoice.payment_action_required",
+    "invoice.voided",
+    "invoice.marked_uncollectible",
+    "payment_method.attached",
+    "payment_method.updated",
+    "payment_method.detached",
+}

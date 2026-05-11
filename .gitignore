@@ -1,0 +1,10 @@
+__pycache__/
+migrations/
+.env
+media/
+static/
+
+*.pid
+*.log
+*.rdb
+celerybeat-schedule
